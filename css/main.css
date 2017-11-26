@@ -36,6 +36,8 @@ img.logo {
 	.container {
 		width: 90%;
 		margin-left: 2.5%;
+		padding-top: 7%; 
+		padding-bottom: 7%; 
 	}
 }
 
@@ -60,6 +62,14 @@ img.logo {
 .challenge {
 	margin-top: 15px;
 }
+@media (max-width: 991px) { 
+	.challenges {
+		margin-top: 50px;
+	}
+	.challenge {
+		margin-top: 30px;
+	}
+}
 
 .float-reset {
 	clear: both;
@@ -78,7 +88,6 @@ h1.name {
 	font-size: 2.5em;
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
-
 .challenges h2 {
 	font-weight: bold;
 	font-size: 2em;
@@ -109,6 +118,21 @@ p.titel {
 	font-weight: bold;
 	border-bottom: 2px solid white;
 	margin-left: 9.5%
+}
+
+@media (max-width: 991px) { 
+	h1.name {
+		font-size: 3.5em;
+	}
+	.challenges h2 {
+		font-size: 3em;
+	}
+	p.number {
+		font-size: 2.2em;
+	}
+	p.titel {
+		font-size: 2em;
+	}
 }
 
 
