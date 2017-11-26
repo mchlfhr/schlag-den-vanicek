@@ -5,3 +5,117 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+img.logo {
+	width: 20%;
+	height: auto;
+	margin: 3% 40%;
+}
+
+.container {
+	width: 50%;
+	margin-left: 23%;
+	border-radius: 25px;
+  border: 4px solid grey;
+  padding: 2%; 
+
+  background: orange; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left,rgba(255,156,3,0.8),rgba(255,234,47,0.8),rgba(255,156,3,0.8)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(255,156,3,0.8),rgba(255,234,47,0.8),rgba(255,156,3,0.8)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(255,156,3,0.8),rgba(255,234,47,0.8),rgba(255,156,3,0.8)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(255,156,3,0.8), rgba(255,234,47,0.8),rgba(255,156,3,0.8)); /*Standard*/
+}
+
+.results {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.result {
+	width: 50%;
+	margin: 12px 20%;
+	background-color: black;
+	padding: 5%;
+}
+
+.challenges {
+	margin-top: 25px;
+	width: 100%;
+	text-align: center;
+}
+.challenge {
+	margin-top: 15px;
+}
+
+.float-reset {
+	clear: both;
+}
+
+
+/**** FONTS ****/
+
+h1,h2,p {
+	font-family: Verdana;
+	color: black;
+}
+
+h1.name {
+	font-weight: bold;
+	font-size: 2.5em;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.challenges h2 {
+	font-weight: bold;
+	font-size: 2em;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+p.total {
+	font-weight: bold;
+	font-size: 7.5em;
+	color: white;
+}
+
+p.chal {
+	float: left;
+}
+p.number {
+	width: 6%;
+	font-size: 1.7em;
+	font-weight: bold;
+	background-color: black;
+	color: grey;
+	margin-left: 9.5%
+}
+p.titel {
+	width: 50%;
+	padding-bottom: 0.5%;
+	font-size: 1.5em;
+	font-weight: bold;
+	border-bottom: 2px solid white;
+	margin-left: 9.5%
+}
+
+
+
+/**** CHALLENGE MARKING ****/
+
+.challenge.jurgen p.number.jurgen,
+.challenge.agency p.number.agency {
+	color: white;
+}
+.challenge.jurgen p.number.agency,
+.challenge.agency p.number.jurgen {
+	color: black;
+}
+.challenge.not-active p.titel,
+.challenge.not-active p.titel {
+	color: transparent;
+}
+
+
+
+
+
+
