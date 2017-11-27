@@ -75,6 +75,9 @@ img.logo {
 .float-reset {
 	clear: both;
 }
+.text-center {
+	text-align: center;
+}
 
 
 /**** FONTS ****/
