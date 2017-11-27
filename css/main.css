@@ -79,8 +79,9 @@ img.logo {
 	text-align: center;
 }
 
-audio {
-	text-align: center;
+.audioCenter {
+	margin: 10px auto; 
+	width: 320px;
 }
 
 
