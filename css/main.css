@@ -92,6 +92,8 @@ h1.name {
 h1.next {
 	font-weight: bold;
 	font-size: 4em;
+	margin-top: 1.5em;
+	margin-bottom: 2.5em;
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 .challenges h2 {
@@ -109,6 +111,7 @@ p.next {
 	font-weight: bold;
 	font-size: 3em;
 	color: white;
+	margin-bottom: 2.5em;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
