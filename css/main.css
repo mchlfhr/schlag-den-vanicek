@@ -89,6 +89,11 @@ h1.name {
 	font-size: 2.5em;
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+h1.next {
+	font-weight: bold;
+	font-size: 4em;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
 .challenges h2 {
 	font-weight: bold;
 	font-size: 2em;
@@ -99,6 +104,12 @@ p.total {
 	font-weight: bold;
 	font-size: 7.5em;
 	color: white;
+}
+p.next {
+	font-weight: bold;
+	font-size: 3em;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 p.chal {
